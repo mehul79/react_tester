@@ -1,11 +1,13 @@
+import { v4 as uuidv4 } from 'uuid';
+
 export default function App() {
 
-  const num = math.random();
+  const randomId = uuidv4();
 
   return (
     <div className="App">
       <h1>React App</h1>
-      <p>Assigned Random Number: {num}</p>
+      <p>Assigned Random Number: {randomId}</p>
     </div>
   );
 }
