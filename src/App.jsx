@@ -8,6 +8,8 @@ export default function App() {
     <div className="App">
       <h1>React App</h1>
       <p>Assigned Random Number: {randomId}</p>
+
+      <button style={{color: 'green'}}>Click me</button>
     </div>
   );
 }
